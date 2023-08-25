@@ -41,7 +41,7 @@
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
             <label for="opcoes-menu">
-                <li class="opcoes__item">Categorias</li>
+                <li class="opcoes__item item__hover">Categorias</li>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__item">
@@ -67,8 +67,14 @@
 
         <div class="container">
             <a href="#"><img src="./assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-            <a href="#"><img src="./assets/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-            <a href="#"><img src="./assets/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+            <a href="#" class="container__link">
+                <img src="./assets/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="./assets/Usuário.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
     </header>
 
@@ -159,7 +165,6 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        
         </div>
 
         <div class="card">
@@ -316,9 +321,10 @@
             spaceBetween: 10,
             slidesPerView: 3,
             loop: true,
-            autoplay: {
-                delay: 3000,
-            },
+            // autoplay: {
+            //     delay: 3000,
+            //     disableOnInteraction: false,
+            // },
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',

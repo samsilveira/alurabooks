@@ -12,8 +12,16 @@
     width: 100%;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next, 
+.swiper-button-prev {
     display: none;
+    --swiper-navigation-size: 15px;
+    --swiper-navigation-sides-offset: 0px;
+    --swiper-navigation-top-offset: 190px;
+    --swiper-navigation-color: var(--branco);
+    background: var(--azul-degrade);
+    padding: 1em 1.1em 1em 1.2em;
+    border-radius: 50%;
 }
 
 .swiper-pagination {
@@ -88,7 +96,6 @@
 
     .swiper-button-prev, .swiper-button-next {
         display: block;
-        top: 60%;
     }
 
     .card {
