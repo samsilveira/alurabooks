@@ -26,6 +26,16 @@ Etapas:
 #### 2. Adaptar para Tablet
 Etapas:
 [x] Ajustar o Header
+[x] Ajustar o Banner
+[x] Ajustar o Carrossel e o Card do primeiro trecho
+[x] Ajustar o Carrossel e o Card do segundo trecho
+[x] Ajustar os Tópicos Visitados Recentemente
+[x] Ajustar seção de Contato
+[x] Ajustar o Rodapé
+
+#### 3. Adaptar para Desktop
+Etapas:
+[ ] Ajustar o Header
 [ ] Ajustar o Banner
 [ ] Ajustar o Carrossel e o Card do primeiro trecho
 [ ] Ajustar o Carrossel e o Card do segundo trecho
