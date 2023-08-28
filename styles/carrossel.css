@@ -15,9 +15,9 @@
 .swiper-button-next, 
 .swiper-button-prev {
     display: none;
-    --swiper-navigation-size: 15px;
+    --swiper-navigation-size: 0.9em;
     --swiper-navigation-sides-offset: 0px;
-    --swiper-navigation-top-offset: 190px;
+    --swiper-navigation-top-offset: 52%;
     --swiper-navigation-color: var(--branco);
     background: var(--azul-degrade);
     padding: 1em 1.1em 1em 1.2em;
