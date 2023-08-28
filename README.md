@@ -1,6 +1,8 @@
 # AluraBooks - Curso de HTML & CSS com MobileFirst
 ---
 ##### Desenvolvido pela Alura e implementação feita por Samuel Silveira
+[![roadmap.sh](https://api.roadmap.sh/v1-badge/wide/6447e99ae272577374973865?variant=dark)](https://roadmap.sh)
+
 Este projeto foi criado no intuito de instruir o uso de HTML e CSS para o desenvolvimento de sites com a técnica MobileFirst.
 > O MobileFirst é utilizado para melhores resultados de SEO, tendo em vista que grande parte das plataformas que acessam sites atualmente, são plataformas mobile.
 
