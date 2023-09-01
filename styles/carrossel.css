@@ -63,6 +63,7 @@
     color: var(--branco);
     text-decoration: none;
     font-weight: 700;
+    transition: 100ms;
 }
 
 .descricao__titulo {
@@ -133,5 +134,14 @@
     .card {
         width: 65%;
         margin-left: 3em;
+    }
+
+    .botoes__ancora:hover {
+        transform: scale(1.02);
+        transition: 250ms;
+    }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
     }
 }
