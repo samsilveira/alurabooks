@@ -15,32 +15,32 @@ Este projeto foi criado no intuito de instruir o uso de HTML e CSS para o desenv
 
 #### 1. Desenvolvimento do HTML e CSS para Mobile
 Etapas:
-[x] Header
-[x] Banner
-[x] Carrossel de Novos Lançamentos com SwiperJS
-[x] Card de "Talvez você também se interesse"
-[x] Carrossel de Mais Vendidos com SwiperJS
-[x] Card de Autor(a) do mês
-[x] Tópicos Visitados Recentemente
-[x] Contato
-[x] Rodapé
+- [x] Header
+- [x] Banner
+- [x] Carrossel de Novos Lançamentos com SwiperJS
+- [x] Card de "Talvez você também se interesse"
+- [x] Carrossel de Mais Vendidos com SwiperJS
+- [x] Card de Autor(a) do mês
+- [x] Tópicos Visitados Recentemente
+- [x] Contato
+- [x] Rodapé
 
 #### 2. Adaptar para Tablet
 Etapas:
-[x] Ajustar o Header
-[x] Ajustar o Banner
-[x] Ajustar o Carrossel e o Card do primeiro trecho
-[x] Ajustar o Carrossel e o Card do segundo trecho
-[x] Ajustar os Tópicos Visitados Recentemente
-[x] Ajustar seção de Contato
-[x] Ajustar o Rodapé
+- [x] Ajustar o Header
+- [x] Ajustar o Banner
+- [x] Ajustar o Carrossel e o Card do primeiro trecho
+- [x] Ajustar o Carrossel e o Card do segundo trecho
+- [x] Ajustar os Tópicos Visitados Recentemente
+- [x] Ajustar seção de Contato
+- [x] Ajustar o Rodapé
 
 #### 3. Adaptar para Desktop
 Etapas:
-[ ] Ajustar o Header
-[ ] Ajustar o Banner
-[ ] Ajustar o Carrossel e o Card do primeiro trecho
-[ ] Ajustar o Carrossel e o Card do segundo trecho
-[ ] Ajustar os Tópicos Visitados Recentemente
-[ ] Ajustar seção de Contato
-[ ] Ajustar o Rodapé
+- [ ] Ajustar o Header
+- [ ] Ajustar o Banner
+- [ ] Ajustar o Carrossel e o Card do primeiro trecho
+- [ ] Ajustar o Carrossel e o Card do segundo trecho
+- [ ] Ajustar os Tópicos Visitados Recentemente
+- [ ] Ajustar seção de Contato
+- [ ] Ajustar o Rodapé
