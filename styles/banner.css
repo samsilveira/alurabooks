@@ -51,6 +51,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .banner__pesquisa {
+        width: 40%;
+    }
     
-    
+    .banner {
+        padding: 5.5em 0;
+    }
 }
