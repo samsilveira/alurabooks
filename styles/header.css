@@ -15,11 +15,11 @@
     display: inline-block;
 }
 
-.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
     background-image: url(../assets/Menu\ Aberto.svg);
 }
 
-.container__botao:checked ~ .container__rotulo {
+.container__botao:checked~.container__rotulo {
     background: var(--azul-degrade);
 }
 
@@ -39,14 +39,14 @@
     width: 60vw;
 }
 
-.container__botao, 
+.container__botao,
 .container__titulo,
 .container__texto,
 .opcoes {
     display: none;
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao:checked~.lista-menu {
     display: block;
 }
 
@@ -70,7 +70,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container__titulo, .container__titulo--negrito {
+
+    .container__titulo,
+    .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
     }
@@ -98,13 +100,13 @@
         color: var(--preto);
     }
 
-    .container__imagem-transparente, 
-    .cabecalho__menu-hamburguer, 
+    .container__imagem-transparente,
+    .cabecalho__menu-hamburguer,
     .opcoes__botao {
         display: none;
     }
 
-    .opcoes__botao:checked ~ .lista-menu {
+    .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
     }
@@ -114,7 +116,7 @@
         color: var(--branco);
     }
 
-    .opcoes__item:hover > .opcoes__link {
+    .opcoes__item:hover>.opcoes__link {
         -webkit-text-fill-color: var(--branco);
     }
 
@@ -122,7 +124,7 @@
         width: auto;
     } */
 
-    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
         background: var(--azul-degrade);
         color: var(--branco);
     }
@@ -132,7 +134,7 @@
         color: var(--branco);
     }
 
-    .lista-menu__item:hover > .lista-menu__link {
+    .lista-menu__item:hover>.lista-menu__link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
     }
@@ -147,11 +149,11 @@
         display: flex;
         align-items: center;
         text-decoration: none;
-    }   
+    }
 
     .container__texto {
         display: block;
-        color: var(--preto);        
+        color: var(--preto);
     }
 
     .container {
